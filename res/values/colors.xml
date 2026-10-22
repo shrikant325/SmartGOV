@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Primary Brand Colors  -->
+    <color name="primary">#4361EE</color>
+    <color name="primary_dark">#3A0CA3</color>
+    <color name="primary_light">#4895EF</color>
+    <color name="accent">#F72585</color>
+    <!--  Gradient Colors  -->
+    <color name="gradient_start">#4361EE</color>
+    <color name="gradient_end">#3A0CA3</color>
+    <!--  Neutral  -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="background">#F7F8FC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6C757D</color>
+    <color name="text_hint">#ADB5BD</color>
+    <color name="divider">#E9ECEF</color>
+    <!--  Status Colors  -->
+    <color name="success">#06D6A0</color>
+    <color name="error">#EF476F</color>
+    <color name="warning">#FFD166</color>
+    <!--  Domain Badge Colors (5 real domains)  -->
+    <color name="domain_child">#F72585</color>
+    <color name="domain_farmer">#06D6A0</color>
+    <color name="domain_handicapped">#FFA62B</color>
+    <color name="domain_senior">#7209B7</color>
+    <color name="domain_health">#EF476F</color>
+    <!--  Admin Theme  -->
+    <color name="admin_primary">#1A1A2E</color>
+    <color name="admin_accent">#F72585</color>
+</resources>

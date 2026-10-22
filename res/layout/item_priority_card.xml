@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/priorityCheckbox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_chip_selector"
+    android:button="@null"
+    android:padding="18dp"
+    android:layout_marginBottom="12dp"
+    android:textSize="15sp"
+    android:textColor="@color/text_primary"
+    android:textStyle="bold"
+    android:gravity="center_vertical" />

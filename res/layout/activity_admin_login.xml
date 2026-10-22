@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/admin_primary"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp">
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ic_admin_shield" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Admin Portal"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="32dp"
+        android:text="Manage schemes across all domains"
+        android:textColor="#9A9AB0"
+        android:textSize="13sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="@color/admin_accent"
+        app:hintTextColor="#9A9AB0"
+        android:textColorHint="#9A9AB0"
+        app:startIconDrawable="@drawable/ic_email"
+        app:startIconTint="#9A9AB0"
+        android:hint="Admin Email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/adminEmailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="@color/admin_accent"
+        app:hintTextColor="#9A9AB0"
+        android:textColorHint="#9A9AB0"
+        app:startIconDrawable="@drawable/ic_lock"
+        app:startIconTint="#9A9AB0"
+        app:endIconMode="password_toggle"
+        android:hint="Admin Password">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/adminPasswordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/adminLoginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Login as Admin"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        app:cornerRadius="14dp"
+        app:backgroundTint="@color/admin_accent" />
+
+    <TextView
+        android:id="@+id/backToUserLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:padding="8dp"
+        android:text="← Back to User Login"
+        android:textColor="#9A9AB0"
+        android:textSize="13sp" />
+
+</LinearLayout>
